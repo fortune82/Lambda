@@ -9,3 +9,208 @@ html {
     font-style: normal;
     font-display: swap;
 }
+
+body {
+    max-width: 1800px;
+    margin: 0 auto;
+    font-family: 'Yeseva One';
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background: url(../img/Bg1.jpg) no-repeat center top;
+    width: 1800px;
+    height: 750px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu nav {
+    display: flex;
+    margin-right: 110px;
+    padding-top: 20px;
+}
+
+.menuFirst {
+    display: inline-flex;
+    font-size: 20px;
+}
+
+.menuFirst li {
+    color: #fff;
+    margin: 0 0 0 45px;
+}
+
+.menuFirst li a:hover {
+    color: #033603;
+}
+
+.menuFirst li a {
+    color: #fff;
+}
+
+.menuSecond {
+    display: inline-flex;
+    padding: 0 0 0 20px;
+}
+
+.menuSecond li a {
+    color: #dab33e;
+    font-size: 21px;
+
+}
+
+header h1 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+    color: #fff;
+    width: 1000px;
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.divider {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0 141px;
+}
+
+.btn button {
+    width: 230px;
+    height: 55px;
+    color: #fff;
+    background-color: rgba(0 0 0 / 0.5);
+    border: none;
+    margin-right: 25px;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn button:first-child {
+    margin-left: 25px;
+}
+
+.btn button:hover {
+    background-color: rgba(256 256 256 / 0.5);
+}
+
+/* ------------------------------------------------------ 
+
+                        2 section
+
+
+-------------------------------------------------------*/
+
+.plateMeet {
+    background: url(../img/pattern.jpg) center no-repeat;
+    height: 710px;
+
+}
+
+.plateMeet .container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.leftCol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 415px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.leftCol h2 {
+    color: #c9a131;
+    font-size: 35px;
+    margin: 0 0 20px;
+}
+
+.leftCol p:nth-child(3) {
+    margin: 0;
+    color: #606060;
+    line-height: 24px;
+    font-family: "Lato", serif;
+}
+
+.rightCol {
+    margin-top: 80px;
+}
+
+/* -------------------------------------------------------
+
+                           3 section
+
+
+---------------------------------------------------------*/
+
+.ingredients {
+    background: url(..//img/bg2.jpg) center no-repeat;
+    height: 760px;
+
+}
+
+.ingredients .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ingredientsFine {
+    width: 570px;
+    height: 557px;
+    background-color: rgba(0 0 0 / 0.5);
+    margin: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+
+.ingredientsFine h2 {
+    font-size: 35px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.ingredientsFine p:nth-child(3) {
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    width: 410px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Lato", serif;
+}
+
+.ingredientsFine p:nth-child(4) {
+    display: flex;
+    justify-content: space-around;
+    margin: 75px auto 0;
+    width: 410px;
+}
