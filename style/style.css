@@ -214,3 +214,125 @@ header h1 {
     margin: 75px auto 0;
     width: 410px;
 }
+
+/* -------------------------------------------------------
+
+                           4 section
+
+
+---------------------------------------------------------*/
+.dishesMenu {
+    background: url(../img/pattern2.jpg) center no-repeat;
+}
+
+.dishes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dishes-1,
+.dishes-2 {
+    height: 850px;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    margin-top: 115px;
+    margin-bottom: 100px;
+}
+
+.dishes h2 {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 25px;
+}
+
+.dividerGold {
+    text-align: center;
+}
+
+.dishes h3 {
+    margin: 0;
+}
+
+.dishes p {
+    color: #000;
+    font-family: "Lato", "serif";
+    font-weight: normal;
+    margin-top: 10px;
+    width: 420px;
+}
+
+.food {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0 0;
+}
+
+hr {
+    border: 0.5px solid #cc9900;
+}
+
+.mainDishes,
+.salads {
+    margin-top: 70px;
+}
+
+/* -------------------------------------------------------
+
+                           5 section guest reviews
+
+
+---------------------------------------------------------*/
+
+.guest {
+    background: url(../img/bg3.jpg) center no-repeat;
+    height: 760px;
+
+}
+
+.guest .container {
+    display: flex;
+    justify-content: center;
+}
+
+.guestReviews {
+    width: 770px;
+    height: 557px;
+    background-color: rgba(0 0 0 / 0.5);
+    margin: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+
+.guestReviews h2 {
+    font-size: 35px;
+    margin: 0;
+    font-weight: 400;
+    margin-top: 0;
+
+}
+
+.guestReviews p {
+    color: #dde0df;
+    font-family: "Gentium Book Basic";
+    line-height: 45px;
+    font-weight: 300;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 75px;
+}
+
+.guestReviews p:nth-child(4) {
+    font-family: "Lato";
+    font-size: 16px;
+    margin-top: 45px;
+}
+
+/* -------------------------------------------------------
+
+                           6 section guest reviews
+
+
+---------------------------------------------------------*/
