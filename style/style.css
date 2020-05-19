@@ -124,7 +124,8 @@ header h1 {
 
 -------------------------------------------------------*/
 
-.plateMeet {
+.plateMeet,
+.rightFood {
     background: url(../img/pattern.jpg) center no-repeat;
     height: 710px;
 
@@ -336,3 +337,98 @@ hr {
 
 
 ---------------------------------------------------------*/
+
+.rightFood .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgs {
+    display: flex;
+    margin: 100px 0;
+}
+
+.img1 {
+    margin-right: 35px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 415px;
+    text-align: center;
+}
+
+.form h2 {
+    color: #c9a131;
+    font-size: 35px;
+    margin: 0 0 20px;
+}
+
+.form p:nth-child(3),
+.form p:nth-child(4) {
+    margin: 0;
+    color: #606060;
+    line-height: 24px;
+    font-family: "Lato", serif;
+
+    font-weight: 400;
+}
+
+.form p:nth-child(4) {
+    padding-bottom: 45px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 430px;
+}
+
+input,
+form button {
+    width: 200px;
+    height: 35px;
+    box-sizing: border-box;
+}
+
+.formBlock1 {
+    display: inline-block;
+
+}
+
+input,
+label {
+    display: block;
+    text-align: left;
+}
+
+label {
+    color: #c9a131;
+}
+
+input {
+    font-style: italic;
+    font-weight: 300;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+input:hover {
+    border: 2px solid #c9a131;
+}
+
+form button {
+    background-color: #c9a131;
+    color: #fff;
+    margin-left: calc(50% - 100px);
+}
+
+/*------------------------------------------ 
+
+                        footer
+
+*/
+-------------------------------------------
