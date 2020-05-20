@@ -424,11 +424,82 @@ form button {
     background-color: #c9a131;
     color: #fff;
     margin-left: calc(50% - 100px);
+    border: none;
+    cursor: pointer;
 }
 
 /*------------------------------------------ 
 
                         footer
 
-*/
--------------------------------------------
+-----------------------------------------*/
+
+footer {
+    background-color: #000;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+.aboutUs,
+.hours,
+.location {
+    margin: 60px 0 70px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+
+.aboutUs h2,
+.hours h2,
+.location h2 {
+    color: #fefefe;
+    font-family: "Yeseva One";
+    font-size: 21px;
+    font-weight: 400;
+}
+
+
+.aboutUs p:nth-child(3),
+.hours p:nth-child(3),
+.location p:nth-child(3) {
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    width: 343px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+
+}
+
+.hours p:nth-child(4),
+.location p:nth-child(4) {
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.bottomLink {
+    display: flex;
+    justify-content: center;
+}
+
+.bottomLink {
+    display: inline-flex;
+    padding: 0 0 0 20px;
+}
+
+.bottomLink a {
+    color: #fff;
+    font-size: 16px;
+
+}
